@@ -1,0 +1,52 @@
+/* manejo de las características de la etiqueta body*/
+
+body {
+    background: #FEFEFD;
+    padding: 20px;
+}
+
+
+/* manejo de las características de la etiqueta table*/
+
+th,
+td {
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+
+tr:hover {
+    background-color: #258EAD;
+}
+
+
+/* manejo de las características de las clases*/
+
+.titulodecampo {
+    background: #9999FF;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#principal {
+    font-size: medium;
+    color: rgb(228, 255, 255);
+    background-color: rgb(0, 51, 40);
+    display: inline;
+    padding: 2%;
+    border-radius: 50%;
+}
+
+#principal:hover {
+    cursor: pointer;
+    background-color: #258EAD;
+}
+
+.texto {
+    display: flex;
+    border-radius: 20%;
+    background-color: #9999FF;
+    font-size: large;
+    padding: 10%;
+}

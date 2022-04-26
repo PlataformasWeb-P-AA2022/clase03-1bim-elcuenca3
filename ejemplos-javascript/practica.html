@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Demo JavaScript</title>
+</head>
+
+<body>
+    <h1>Curso HTML</h1>
+    <p id="resultadoNombre"></p>
+    <p id="resultadoApellido"></p>
+
+    <script type="text/javascript" charset="utf-8">
+        var entrada1 = window.prompt("Escriba su nombre: ", "Erick");
+        var entrada2 = window.prompt("Escriba su apellido: ", "Cuenca");
+        var a = entrada1
+        var b = entrada2
+
+        document.getElementById("resultadoNombre").innerHTML = "<h1>  hola " + a + "</h1>";
+        document.getElementById("resultadoApellido").innerHTML = "<h3> " + b + " </h3>";
+        console.log(a);
+    </script>
+</body>
+
+</html>
